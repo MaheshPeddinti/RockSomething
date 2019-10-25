@@ -49,4 +49,10 @@ public class HUDController : MonoBehaviour
     {
         Rock.GetComponent<RockController>().isSick = false;
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("U clicked the quit button.");
+        Application.Quit();
+    }
 }
